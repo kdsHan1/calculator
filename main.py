@@ -32,6 +32,7 @@ class Calculator(QWidget):
   def activateMessage(self):
     # QMessageBox.information(self, 'Information', "Button clicked!!!")
     self.te1.appendPlainText("Button clicked~~~")
+    # Hello
 
 if __name__ == "__main__":
   app = QApplication(sys.argv)
